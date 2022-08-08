@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding-top: 120px;
+}
+.header{
+    padding: 20px;
+    height: 80px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.linked{
+    width: 190px;
+}
+.king{
+    display: grid;
+
+}
+.king{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main{
+    display: grid;
+    grid-template-columns:470px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 1px 1px 20px 1px rgb(201, 199, 199);
+    border-radius: 2px solid black;
+    border-radius: 20px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.login input{
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border: solid 1px ;
+}
+.titre2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.passe{
+    margin-top: 15px;
+    align-self: flex-start;
+
+}
+.but1{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+.but11:hover{
+   opacity: 0.9;
+   cursor:pointer;
+}
+
+.but11{
+    width: 230px;
+    height: 60px;
+    background-color: rgb(72, 117, 240);
+    border: none;
+    border-radius: 50px;
+    font-size: 25px;
+    color: white;
+}
+.ou1{
+    display: flex;
+   
+}
+.lisser{
+    flex: 2;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.521);
+    height: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.avec{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.app1{
+    width: 300px;
+    height: 50px;
+}
+.app1 img{
+    width: 30px;
+    background-color:none;
+    
+
+}
+.app1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid ;
+    border-radius: 40px;
+    background-color: rgb(247, 247, 247);
+}
+.app1:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+@media (max-width:500px){
+    .king{
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+
+
+
